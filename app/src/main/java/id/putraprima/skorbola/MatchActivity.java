@@ -132,7 +132,7 @@ public class MatchActivity extends AppCompatActivity {
                     s_Winner = s_TxtAway;
                 }
                 else {
-                    s_Winner = "draw";
+                    s_Winner = "draw :(";
                 }
 
                 Intent intent = new Intent(MatchActivity.this, ResultActivity.class);

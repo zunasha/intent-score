@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultActivity">
+    tools:context=".ResultActivity"
+    android:background="@color/color1">
 
     <TextView
         android:id="@+id/textView2"
@@ -12,21 +13,24 @@
         android:layout_height="wrap_content"
         android:text="Result"
         android:textSize="40sp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="180dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/color4"/>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Name Of Winning Team"
+        android:textStyle="bold"
         android:textSize="40sp"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:paddingTop="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:textColor="@color/color4"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
